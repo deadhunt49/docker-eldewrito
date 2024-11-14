@@ -64,7 +64,7 @@ RUN chmod +x start.sh && \
     mkdir config logs
 
 # Set start command to execute the start script
-CMD /start.sh
+CMD ["/start.sh"]
 
 # Set working directory into the game directory
 WORKDIR /game
