@@ -1,8 +1,8 @@
 # Pull ubuntu image
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 # Set environment variables
-ENV CONTAINER_VERSION=1.1 \
+ENV CONTAINER_VERSION=1.2 \
     ELDEWRITO_VERSION=0.7.1 \
     MTNDEW_CHECKSUM=f1d6c49381ac1ec572f0f405e4cd406b \
     DISPLAY=:1 \
@@ -21,11 +21,13 @@ RUN dpkg --add-architecture i386 && \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key && \
     apt-key add winehq.key && \
     rm winehq.key && \
-    add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' && \
+    add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ noble main' && \
     apt-get update
 
 # Install Wine stable
-RUN apt-get install -y --install-recommends winehq-stable
+#RUN apt-get install -y --install-recommends winehq-stable
+# Install Wine staging
+RUN apt-get install -y --install-recommends winehq-staging
 
 # Download winetricks from source
 RUN wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && \
