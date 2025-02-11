@@ -6,7 +6,7 @@
         "playerInfo": "http://api.eldewrito.org/api/playersinfo",
         "serviceRecord": "http://api.eldewrito.org/api/servicerecord",
         "playerProfile": "http://stats.eldewrito.org/player/",
-        "publicKey": ""
+        "publicKey": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAz3lSvgZDeC/SMU42pXgbJZN413h3+Ktgs6s88nDYrSWfuCEu9c213mZLdYe8XKwuJ29Fd6mt0maRt3oNJ39Aar30QTN2rDjBTxuY/PmNO15bzgdU+VQECdne2VMT0p1NUH312o1UoBbsF+j/aKGEngyjvqUCBw2+p0RHZEv6EMKOKdS06Gp6Gi6vWcLLwTbsOmgK8sjI7x8M6dn3Kp+6YGQUHvD1Voh2Gb6wEMXrsxOTL7eI9C0KW80AdhaZJ1RO3Ohu40IWNFIElobiAH/1WkAEl4Munxol6vuTqQmwjBSITA0m+HNevcE9px1zFPM64GdnwRegm/6omSug1YIJlBiVezTMU9gJyoi7y7ELUb4hsCwJReTcIsLJ7hZ1OZVMuNSuwplyXffoH4aH9/g+GId14W3MQyHymQK5+0qs4IYfE/sQIoCyDhIEEImeo90rmnqAwF4JNHJZdg770a3bEsLWdF9b76fsUGTkjR9jXRktF2hufFopyUDPLvbD0Ac8dEvqWtA0dwT4Gl+dRF2SCEBmmKU5ZdbL/Aypc+/5dfAgok/LdDF2/RF/OPO5fTlk94LR7/TMMdmv00rHkoNbCRkKJ4xPU4Gk67sQwbUOE07HANqjJYuSlS9UUnjy04jHyO28wgSlh2V9FcG5oNwkbGEWeJxMHiXID5ZH6XsDFWcCAwEAAQ=="
     },
     "banlistUrls": [
         "http://api.eldewrito.org/api/banlist"
