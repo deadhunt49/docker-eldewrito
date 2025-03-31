@@ -49,14 +49,14 @@ else
     echo "Running as eldewrito"
     user=eldewrito
 
-    if [ $PUID -lt 1000 ] || [ $PUID -gt 60000 ]; then
+    if [ $PUID -lt 1001 ] || [ $PUID -gt 60000 ]; then
         echo "${RED}PUID is invalid${NC}"
 
         sleep 2
         exit 20
     fi
 
-    if [ $PGID -lt 1000 ] || [ $PGID -gt 60000 ]; then
+    if [ $PGID -lt 1001 ] || [ $PGID -gt 60000 ]; then
         echo "${RED}PGID is invalid${NC}"
 
         sleep 2
