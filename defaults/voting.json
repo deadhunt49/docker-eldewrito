@@ -1,212 +1,433 @@
 {
   "maps": [
     {
-      "displayName": "Standoff",
-      "mapName": "Bunkerworld"
-    },
-    {
-      "displayName": "Sandtrap",
-      "mapName": "Shrine"
-    },
-    {
-      "displayName": "Icebox",
-      "mapName": "s3d_turf"
-    },
-	{
-      "displayName": "Reactor",
-      "mapName": "s3d_reactor"
-    },
-    {
-      "displayName": "Narrows",
-      "mapName": "Chill"
-    },
-    {
-      "displayName": "High Ground",
-      "mapName": "Deadlock"
-    },
-    {
-      "displayName": "Last Resort",
-      "mapName": "Zanzibar"
-    },
-    {
       "displayName": "Valhalla",
       "mapName": "riverworld"
     },
     {
+      "displayName": "Last Resort",
+      "mapName": "zanzibar"
+    },
+    {
+      "displayName": "Rat's Nest",
+      "mapName": "armory"
+    },
+    {
+      "displayName": "Sandtrap",
+      "mapName": "shrine"
+    },
+    {
+      "displayName": "Standoff",
+      "mapName": "bunkerworld"
+    },
+    {
+      "displayName": "Citadel",
+      "mapName": "fortress"
+    },
+    {
+      "displayName": "Sandbox",
+      "mapName": "sandbox"
+    },
+    {
+      "displayName": "Epitaph",
+      "mapName": "salvation"
+    },
+    {
+      "displayName": "Avalanche",
+      "mapName": "sidewinder"
+    },
+    {
+      "displayName": "Ghost Town",
+      "mapName": "ghosttown"
+    },
+    {
+      "displayName": "Cold Storage",
+      "mapName": "chillout"
+    },
+    {
+      "displayName": "Construct",
+      "mapName": "construct"
+    },
+    {
+      "displayName": "Isolation",
+      "mapName": "isolation"
+    },
+    {
+      "displayName": "Snowbound",
+      "mapName": "snowbound"
+    },
+    {
+      "displayName": "Orbital",
+      "mapName": "spacecamp"
+    },
+    {
+      "displayName": "Blackout",
+      "mapName": "lockout"
+    },
+    {
+      "displayName": "Assembly",
+      "mapName": "descent"
+    },
+    {
+      "displayName": "Longshore",
+      "mapName": "docks"
+    },
+    {
+      "displayName": "Heretic",
+      "mapName": "midship"
+    },
+    {
+      "displayName": "Foundry",
+      "mapName": "warehouse"
+    },
+    {
+      "displayName": "Diamondback",
+      "mapName": "s3d_avalanche"
+    },
+    {
       "displayName": "The Pit",
-      "mapName": "Cyberdyne"
+      "mapName": "cyberdyne"
+    },
+    {
+      "displayName": "Narrows",
+      "mapName": "chill"
+    },
+    {
+      "displayName": "Edge",
+      "mapName": "s3d_edge"
     },
     {
       "displayName": "Guardian",
       "mapName": "guardian"
     },
     {
-      "displayName": "Diamondback",
-      "mapName": "s3d_avalanche"
+      "displayName": "Reactor",
+      "mapName": "s3d_reactor"
+    },
+    {
+      "displayName": "High Ground",
+      "mapName": "deadlock"
+    },
+    {
+      "displayName": "Icebox",
+      "mapName": "s3d_turf"
     }
   ],
   "types": [
     {
-      "displayName": "Team BRs",
-      "typeName": "Team BRs",
-	  "randomChance": 5,
-      "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
+      "displayName": "Multi Flag",
+      "typeName": "Multi Flag",
+      "modPack": "Halo 3: Pack",
+      "specificMaps": [
+        {
+          "displayName": "Valhalla",
+          "mapName": "riverworld"
+        },
+        {
+          "displayName": "Last Resort",
+          "mapName": "zanzibar"
+        },
+        {
+          "displayName": "Rat's Nest",
+          "mapName": "armory"
+        },
+        {
+          "displayName": "Sandtrap",
+          "mapName": "shrine"
+        },
+        {
+          "displayName": "Standoff",
+          "mapName": "bunkerworld"
+        }
+      ]
     },
     {
-      "displayName": "1v1 Slayer",
+      "displayName": "Slayer",
       "typeName": "Slayer",
-	  "minPlayersAllowed": 2,
-	  "maxPlayersAllowed": 2,
-      "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"],
-	  "specificMaps": [
+      "modPack": "Halo 3: Pack",
+      "specificMaps": [
+        {
+          "displayName": "Rat's Nest",
+          "mapName": "armory"
+        },
+        {
+          "displayName": "Citadel",
+          "mapName": "fortress"
+        },
+        {
+          "displayName": "Sandbox",
+          "mapName": "sandbox"
+        },
+        {
+          "displayName": "Epitaph",
+          "mapName": "salvation"
+        },
+        {
+          "displayName": "Avalanche",
+          "mapName": "sidewinder"
+        },
+        {
+          "displayName": "Ghost Town",
+          "mapName": "ghosttown"
+        },
+        {
+          "displayName": "Cold Storage",
+          "mapName": "chillout"
+        },
+        {
+          "displayName": "Construct",
+          "mapName": "construct"
+        },
+        {
+          "displayName": "Isolation",
+          "mapName": "isolation"
+        },
+        {
+          "displayName": "Snowbound",
+          "mapName": "snowbound"
+        },
+        {
+          "displayName": "Orbital",
+          "mapName": "spacecamp"
+        },
+        {
+          "displayName": "Blackout",
+          "mapName": "lockout"
+        },
+        {
+          "displayName": "Assembly",
+          "mapName": "descent"
+        },
+        {
+          "displayName": "Longshore",
+          "mapName": "docks"
+        },
+        {
+          "displayName": "Heretic",
+          "mapName": "midship"
+        },
+        {
+          "displayName": "Foundry",
+          "mapName": "warehouse"
+        },
+        {
+          "displayName": "Diamondback",
+          "mapName": "s3d_avalanche"
+        },
+        {
+          "displayName": "Last Resort",
+          "mapName": "zanzibar"
+        },
+        {
+          "displayName": "The Pit",
+          "mapName": "cyberdyne"
+        },
+        {
+          "displayName": "Valhalla",
+          "mapName": "riverworld"
+        },
+        {
+          "displayName": "Narrows",
+          "mapName": "chill"
+        },
+        {
+          "displayName": "Edge",
+          "mapName": "s3d_edge"
+        },
+        {
+          "displayName": "Guardian",
+          "mapName": "guardian"
+        },
+        {
+          "displayName": "Reactor",
+          "mapName": "s3d_reactor"
+        },
+        {
+          "displayName": "High Ground",
+          "mapName": "deadlock"
+        },
+        {
+          "displayName": "Sandtrap",
+          "mapName": "shrine"
+        },
+        {
+          "displayName": "Icebox",
+          "mapName": "s3d_turf"
+        },
+        {
+          "displayName": "Standoff",
+          "mapName": "bunkerworld"
+        }
+      ]
+    },
+    {
+      "displayName": "Infection",
+      "typeName": "Infection",
+      "modPack": "Halo 3: Pack",
+      "specificMaps": [
+        {
+          "displayName": "Heretic",
+          "mapName": "midship"
+        },
+        {
+          "displayName": "Snowbound",
+          "mapName": "snowbound"
+        },
+        {
+          "displayName": "Rat's Nest",
+          "mapName": "armory"
+        },
         {
           "displayName": "Guardian",
           "mapName": "guardian"
         }
-	  ]
-    },
-	{
-      "displayName": "Team Slayer",
-      "typeName": "Team Slayer",
-      "commands": ["Server.Sprint 1", "Server.AssassinationEnabled 1", "Server.NumberOfTeams 4"],
-      "endOfMatchCommands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
+      ]
     },
     {
-      "displayName": "Team SWAT",
-      "typeName": "Team SWAT",
-      "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"],
+      "displayName": "Juggernaut",
+      "typeName": "Juggernaut",
+      "modPack": "Halo 3: Pack",
       "specificMaps": [
-		{
-		  "displayName": "Valhalla",
-          "mapName": "Guardian (Swat)",
-          "maxPlayersAllowed": 8
-		},
         {
-          "displayName": "Valhalla",
-          "mapName": "Valhalla (Swat)",
-		  "randomChance": 5
+          "displayName": "Guardian",
+          "mapName": "guardian"
         },
         {
           "displayName": "Standoff",
-          "mapName": "Standoff (Swat)"
+          "mapName": "bunkerworld"
         },
         {
-          "displayName": "Last Resort",
-          "mapName": "LastResortSwat"
+          "displayName": "Heretic",
+          "mapName": "midship"
         },
         {
-          "displayName": "Diamondback",
-          "mapName": "Diamondback (S)",
-		  "minPlayersAllowed": 8
+          "displayName": "Citadel",
+          "mapName": "fortress"
         },
         {
-          "displayName": "High Ground",
-          "mapName": "HighGroundSwat"
+          "displayName": "Cold Storage",
+          "mapName": "chillout"
         }
       ]
     },
-	{
-      "modPack": "Mythic Mod",
+    {
       "displayName": "Team Slayer",
-      "typeName": "team slayer",
-      "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"],
-	  "specificMaps": [
-		{
-		  "displayName": "Rat's Nest",
-		  "mapName": "armory"
-		},
-		{
-		  "displayName": "Cold Storage",
-		  "mapName": "chillout"
-		},
-		{
-		  "displayName": "Ghost Town",
-		  "mapName": "ghosttown"
-		},
-		{
-		  "displayName": "Sandbox",
-		  "mapName": "sandbox"
-		},
-		{
-		  "displayName": "Foundry",
-		  "mapName": "warehouse"
-		},
-		{
-		  "displayName": "SkyCastle",
-		  "mapName": "skycastle",
-		  "imageUrl": "http://example.com/skycastle.png"
-		}
+      "typeName": "Team Slayer",
+      "modPack": "Halo 3: Pack",
+      "specificMaps": [
+        {
+          "displayName": "Diamondback",
+          "mapName": "s3d_avalanche"
+        },
+        {
+          "displayName": "Last Resort",
+          "mapName": "zanzibar"
+        },
+        {
+          "displayName": "Valhalla",
+          "mapName": "riverworld"
+        },
+        {
+          "displayName": "The Pit",
+          "mapName": "cyberdyne"
+        },
+        {
+          "displayName": "Narrows",
+          "mapName": "chill"
+        },
+        {
+          "displayName": "Edge",
+          "mapName": "s3d_edge"
+        },
+        {
+          "displayName": "Guardian",
+          "mapName": "guardian"
+        },
+        {
+          "displayName": "Reactor",
+          "mapName": "s3d_reactor"
+        },
+        {
+          "displayName": "High Ground",
+          "mapName": "deadlock"
+        },
+        {
+          "displayName": "Sandtrap",
+          "mapName": "shrine"
+        },
+        {
+          "displayName": "Standoff",
+          "mapName": "bunkerworld"
+        },
+        {
+          "displayName": "Icebox",
+          "mapName": "s3d_turf"
+        },
+        {
+          "displayName": "Rat's Nest",
+          "mapName": "armory"
+        },
+        {
+          "displayName": "Citadel",
+          "mapName": "fortress"
+        },
+        {
+          "displayName": "Sandbox",
+          "mapName": "sandbox"
+        },
+        {
+          "displayName": "Epitaph",
+          "mapName": "salvation"
+        },
+        {
+          "displayName": "Avalanche",
+          "mapName": "sidewinder"
+        },
+        {
+          "displayName": "Ghost Town",
+          "mapName": "ghosttown"
+        },
+        {
+          "displayName": "Cold Storage",
+          "mapName": "chillout"
+        },
+        {
+          "displayName": "Construct",
+          "mapName": "construct"
+        },
+        {
+          "displayName": "Isolation",
+          "mapName": "isolation"
+        },
+        {
+          "displayName": "Snowbound",
+          "mapName": "snowbound"
+        },
+        {
+          "displayName": "Orbital",
+          "mapName": "spacecamp"
+        },
+        {
+          "displayName": "Blackout",
+          "mapName": "lockout"
+        },
+        {
+          "displayName": "Assembly",
+          "mapName": "descent"
+        },
+        {
+          "displayName": "Longshore",
+          "mapName": "docks"
+        },
+        {
+          "displayName": "Heretic",
+          "mapName": "midship"
+        },
+        {
+          "displayName": "Foundry",
+          "mapName": "warehouse"
+        }
       ]
-    }
-  ],
-  "vetoPlaylist": [
-    {
-      "map": {
-        "displayName": "Standoff",
-        "mapName": "bunkerworld"
-      },
-      "type": {
-        "displayName": "Team King",
-        "typeName": "Team Crazy King",
-		"randomChance": 1,
-        "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
-      }
-    },
-	{
-      "map": {
-        "displayName": "Standoff",
-        "mapName": "bunkerworld"
-      },
-      "type": {
-        "displayName": "Team Slayer",
-        "typeName": "Team Slayer",
-        "randomChance": 3,
-        "commands": ["Server.Sprint 1", "Server.AssassinationEnabled 1", "Server.NumberOfTeams 2"],
-        "endOfMatchCommands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
-
-      }
-    },
-    {
-      "map": {
-        "displayName": "Guardian",
-        "mapName": "guardian",
-        "minPlayersAllowed": 2,
-        "maxPlayersAllowed": 2
-      },
-      "type": {
-        "displayName": "1v1 Slayer",
-        "typeName": "Slayer",
-        "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
-      }
-    },
-
-    {
-      "map": {
-        "displayName": "Snowbound",
-        "mapName": "snowbound"
-      },
-      "type": {
-		"modPack": "Mythic Mod",
-        "displayName": "Team BRs",
-        "typeName": "Team BRs",
-        "commands": ["Server.Sprint 1", "Server.AssassinationEnabled 1", "Server.NumberOfTeams 4"],
-        "endOfMatchCommands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
-      }
-    },
-    {
-      "map": {
-        "displayName": "Isolation",
-        "mapName": "isolation",
-        "imageUrl": "http://example.com/skycastle.png"
-      },
-      "type": {
-		"modPack": "Mythic Mod",
-        "displayName": "Team BRs",
-        "typeName": "Team BRs",
-        "minPlayersAllowed": 4,
-        "maxPlayersAllowed": 8,
-        "commands": ["Server.Sprint 2", "Server.AssassinationEnabled 0", "Server.NumberOfTeams 2"]
-      }
     }
   ]
 }
